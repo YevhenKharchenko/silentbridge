@@ -1,0 +1,538 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hashi: Bridge Puzzles – Classic Hashiwokakero Logic Game</title>
+    <meta
+      name="description"
+      content="Hashi: Bridge Puzzles is the classic Hashiwokakero logic game. Connect islands, build bridge networks, and solve 720+ free puzzles across multiple difficulty levels."
+    />
+    <meta
+      name="keywords"
+      content="Hashi puzzle, Hashiwokakero, bridge connect puzzle, logic puzzle game, brain teaser app, island bridge puzzle"
+    />
+    <meta name="robots" content="index, follow" />
+    <link rel="icon" type="image/png" href="/silentbridge/favicon.png" />
+    
+    <script type="module" crossorigin src="/silentbridge/commonHelpers3.js"></script>
+    <link rel="modulepreload" crossorigin href="/silentbridge/assets/header-074143da.js">
+    <link rel="stylesheet" href="/silentbridge/assets/header-868c6910.css">
+  </head>
+  <body>
+    <header class="header">
+  <div class="container header-container">
+    <nav class="nav">
+      <a class="header-logo-link" href="./">
+        <img
+          class="header-logo-img"
+          src="/silentbridge/assets/header-logo-4fecd190.png"
+          alt="Logo"
+          width="44"
+          height="44"
+      /></a>
+      <ul class="nav-list">
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#home">Home</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#gameplay">How to Play</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#features">Features</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#strategies">Strategies</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#progression">Levels</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#faq">FAQ</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#contact">Contact</a>
+        </li>
+      </ul>
+      <button class="nav-btn" type="button" aria-label="Open mobile menu">
+        <svg class="menu-icon" width="44" height="44">
+          <use href="/silentbridge/assets/sprite-f1f17bf2.svg#icon-menu"></use>
+        </svg>
+      </button>
+      <button class="close-btn" type="button" aria-label="Close mobile menu">
+        <svg class="close-icon" width="44" height="44">
+          <use href="/silentbridge/assets/sprite-f1f17bf2.svg#icon-close"></use>
+        </svg>
+      </button>
+    </nav>
+  </div>
+</header>
+
+    <div class="context-menu">
+  <nav class="context-nav">
+    <ul class="context-nav-list">
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#home">Home</a>
+      </li>
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#gameplay"
+          >How to Play</a
+        >
+      </li>
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#features">Features</a>
+      </li>
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#strategies"
+          >Strategies</a
+        >
+      </li>
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#progression">Levels</a>
+      </li>
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#faq">FAQ</a>
+      </li>
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#contact">Contact</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+    <main>
+      <section class="section hero-section" id="home">
+  <div class="hero-bg-wrapper">
+    <div class="container hero-container">
+      <div class="hero-content-wrapper">
+        <h1 class="hero-main-title">
+          Hashi:<br class="hero-title-br" />
+          Bridge Puzzles
+        </h1>
+        <p class="hero-text">
+          Become the Island King<br />
+          Get really good at connecting those bridges<br />
+          So this is Hashi - basically you're connecting islands with bridges,
+          and honestly? It's way more addictive than it sounds.<br />
+          <br />
+          You've gotta connect these islands based on the numbers, making sure
+          everyone can get around your little kingdom.<br />
+          <br />
+          Simple rules.<br />
+          Deep logic.<br />
+          Endless mastery.
+        </p>
+        <a
+          class="hero-btn"
+          target="_blank"
+          href="https://play.google.com/store/apps/details?id=com.iyond.game.puzzle.hashi&hl=en&gl=us"
+          rel="noopener noreferrer"
+          aria-label="Download on Google Play"
+        >
+          <img
+            class="hero-play-img"
+            src="/silentbridge/assets/hero-play-img-2fe6cbfc.png"
+            alt="Google Play"
+            width="180"
+            height="57"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="section gameplay-section" id="gameplay">
+  <div class="gameplay-bg-wrapper">
+    <div class="container gameplay-container">
+      <div class="gameplay-content-wrapper">
+        <div class="gameplay-text-wrapper">
+          <h2 class="section-title gameplay-title">How to Play</h2>
+          <p class="section-subtitle gameplay-subtitle">
+            Simple Rules, Endless Logic
+          </p>
+          <p class="gameplay-text">
+            Connect numbered islands with bridges matching the number on each
+            island<br />
+            Maximum 2 bridges between any two islands<br />
+            Bridges can’t cross islands or other bridges<br />
+            All islands must be connected in one continuous kingdom<br />
+            It starts easy.<br />
+            Then logic takes over.
+          </p>
+        </div>
+        <picture>
+          <source
+            srcset="/silentbridge/assets/gameplay-img-desk-60d25073.png "
+            media="(min-width: 1440px)"
+            width="384"
+            height="384" />
+          <source
+            srcset="/silentbridge/assets/gameplay-img-mob-59409c17.png "
+            width="343"
+            height="343" />
+          <img
+            class="gameplay-img"
+            src="/silentbridge/assets/gameplay-img-mob-59409c17.png"
+            alt="Screenshot of the game"
+            width="343"
+            height="343"
+            loading="lazy"
+        /></picture>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="section features-section" id="features">
+  <div class="features-bg-wrapper">
+    <div class="container features-container">
+      <div class="features-content-wrapper">
+        <div class="features-text-wrapper">
+          <h2 class="section-title features-title">Build Your Kingdom</h2>
+          <p class="section-subtitle features-subtitle">
+            Make sure every island is connected
+          </p>
+          <p class="features-text">
+            Every puzzle throws something different at you, so you've gotta
+            really think through each move.<br />
+            <br />
+            You’re not just placing bridges —<br />
+            you’re designing a functional kingdom.<br />
+            <br />
+            One mistake can isolate an island.<br />
+            One smart deduction can unlock the entire board.<br />
+            The puzzles are challenging and will encourage you to think outside
+            the box.
+          </p>
+        </div>
+        <picture>
+          <source
+            srcset="/silentbridge/assets/features-img-desk-9970183f.png "
+            media="(min-width: 1440px)"
+            width="358"
+            height="592" />
+          <source
+            srcset="/silentbridge/assets/features-img-mob-4a65a2a0.png "
+            width="330"
+            height="518" />
+          <img
+            class="features-img"
+            src="/silentbridge/assets/features-img-mob-4a65a2a0.png"
+            alt="Screenshot of the game"
+            width="330"
+            height="518"
+            loading="lazy"
+        /></picture>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="section strategies-section" id="strategies">
+  <div class="strategies-bg-wrapper">
+    <div class="container strategies-container">
+      <div class="strategies-content-wrapper">
+        <h2 class="section-title strategies-title">Strategy Zone</h2>
+        <p class="section-subtitle strategies-subtitle">Solve Like a Pro</p>
+        <p class="strategies-list-text">
+          Master Hashiwokakero with advanced techniques:
+        </p>
+        <ul class="strategies-list">
+          <li class="strategies-list-item">
+            <p class="strategies-item-number">1</p>
+            <p class="strategies-item-title">Procedural Deduction</p>
+            <p class="strategies-item-text">
+              Confirming one bridge removes other possibilities.
+            </p>
+          </li>
+          <li class="strategies-list-item">
+            <p class="strategies-item-number">2</p>
+            <p class="strategies-item-title">Key Number Rules</p>
+            <p class="strategies-item-text">
+              Certain numbers demand mandatory bridge placement.
+            </p>
+          </li>
+          <li class="strategies-list-item">
+            <p class="strategies-item-number">3</p>
+            <p class="strategies-item-title">Avoid Short Circuits</p>
+            <p class="strategies-item-text">
+              Never isolate a part of the network.
+            </p>
+          </li>
+          <li class="strategies-list-item">
+            <p class="strategies-item-number">4</p>
+            <p class="strategies-item-title">Prevent Isolation</p>
+            <p class="strategies-item-text">
+              Keep the kingdom continuous at all times.
+            </p>
+          </li>
+        </ul>
+        <p class="strategies-bottom-text">
+          Every bridge you add brings you closer to connecting everything - when
+          it all clicks together, it's so satisfying.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="section progression-section" id="progression">
+  <div class="progression-bg-wrapper">
+    <div class="container progression-container">
+      <div class="progression-content-wrapper">
+        <div class="progression-text-wrapper">
+          <h2 class="section-title progression-title">Level Progression</h2>
+          <p class="section-subtitle progression-subtitle">
+            From Beginner to Architect
+          </p>
+          <p class="progression-list-text">
+            Start with small grids to learn the rules. Advance to:<br />
+          </p>
+          <ul class="progression-list">
+            <li class="progression-list-item">
+              <p class="progression-item-text">Larger layouts</p>
+            </li>
+            <li class="progression-list-item">
+              <p class="progression-item-text">Denser island networks</p>
+            </li>
+            <li class="progression-list-item">
+              <p class="progression-item-text">
+                Multi-directional bridge planning
+              </p>
+            </li>
+            <li class="progression-list-item">
+              <p class="progression-item-text">Expert-level 14x21 puzzles</p>
+            </li>
+          </ul>
+          <p class="progression-text">
+            As you get better, the puzzles become more challenging, keeping you
+            engaged.
+          </p>
+        </div>
+        <img
+          class="progression-img"
+          src="/silentbridge/assets/progression-img-mob-ceaf92d2.png"
+          alt="Screenshot of the game"
+          width="324"
+          height="569"
+          loading="lazy"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="section faq-section" id="faq">
+  <div class="faq-bg-wrapper">
+    <div class="container faq-container">
+      <div class="faq-content-wrapper">
+        <h2 class="section-title faq-title">FAQ</h2>
+        <p class="section-subtitle faq-subtitle">Frequently Asked Questions</p>
+        <ul class="faq-list">
+          <li class="faq-list-item">
+            <button class="faq-top-text-btn">
+              <span class="faq-btn-text"
+                >Is Hashi: Bridge Puzzles free to play?</span
+              >
+              <span class="faq-toggle-symbol"
+                ><svg class="faq-icon" width="28" height="28">
+                  <use href="/silentbridge/assets/sprite-f1f17bf2.svg#icon-plus"></use></svg
+              ></span>
+            </button>
+            <p class="faq-bottom-text">
+              Yes, the game includes 720+ free puzzles available to all players.
+              You can enjoy the full logic experience without mandatory
+              purchases. Additional features enhance convenience but are not
+              required.
+            </p>
+          </li>
+          <li class="faq-list-item">
+            <button class="faq-top-text-btn">
+              <span class="faq-btn-text">Are all puzzles solvable?</span>
+              <span class="faq-toggle-symbol"
+                ><svg class="faq-icon" width="28" height="28">
+                  <use href="/silentbridge/assets/sprite-f1f17bf2.svg#icon-plus"></use></svg
+              ></span>
+            </button>
+            <p class="faq-bottom-text">
+              Yes. Every puzzle is carefully designed to have at least one valid
+              solution. There are no random or impossible configurations.
+            </p>
+          </li>
+          <li class="faq-list-item">
+            <button class="faq-top-text-btn">
+              <span class="faq-btn-text">Can I play offline?</span>
+              <span class="faq-toggle-symbol"
+                ><svg class="faq-icon" width="28" height="28">
+                  <use href="/silentbridge/assets/sprite-f1f17bf2.svg#icon-plus"></use></svg
+              ></span>
+            </button>
+            <p class="faq-bottom-text">
+              Yes, Hashi supports offline gameplay. You can solve puzzles
+              anytime without internet access. Cloud backup is optional when
+              connected.
+            </p>
+          </li>
+          <li class="faq-list-item">
+            <button class="faq-top-text-btn">
+              <span class="faq-btn-text"
+                >What difficulty levels are available?</span
+              >
+              <span class="faq-toggle-symbol"
+                ><svg class="faq-icon" width="28" height="28">
+                  <use href="/silentbridge/assets/sprite-f1f17bf2.svg#icon-plus"></use></svg
+              ></span>
+            </button>
+            <p class="faq-bottom-text">
+              The game offers multiple board sizes ranging from beginner to
+              expert. Smaller grids help you learn the mechanics. Larger grids
+              provide advanced strategic challenges.
+            </p>
+          </li>
+          <li class="faq-list-item">
+            <button class="faq-top-text-btn">
+              <span class="faq-btn-text">Does the game track progress?</span>
+              <span class="faq-toggle-symbol"
+                ><svg class="faq-icon" width="28" height="28">
+                  <use href="/silentbridge/assets/sprite-f1f17bf2.svg#icon-plus"></use></svg
+              ></span>
+            </button>
+            <p class="faq-bottom-text">
+              Yes, you can track completed puzzles and solving times. Progress
+              can also be backed up to the cloud. This allows seamless switching
+              between devices.
+            </p>
+          </li>
+          <li class="faq-list-item">
+            <button class="faq-top-text-btn">
+              <span class="faq-btn-text">Who is this game for?</span>
+              <span class="faq-toggle-symbol"
+                ><svg class="faq-icon" width="28" height="28">
+                  <use href="/silentbridge/assets/sprite-f1f17bf2.svg#icon-plus"></use></svg
+              ></span>
+            </button>
+            <p class="faq-bottom-text">
+              Perfect if you love puzzles, logic games, or just want something
+              to keep your brain sharp. Both beginners and advanced players can
+              find suitable challenges.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="section contact-section" id="contact">
+  <div class="contact-bg-wrapper">
+    <div class="container contact-container">
+      <div class="contact-content-wrapper">
+        <h2 class="section-title contact-title">Contact</h2>
+        <p class="contact-cta-text">Need Help?</p>
+        <a href="mailto:info@silentbridge.pro" class="contact-email-link"
+          >info@silentbridge.pro</a
+        >
+        <p class="contact-bottom-text">We welcome feedback and suggestions.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </main>
+    <footer class="footer" id="footer">
+  <div class="footer-bg-wrapper">
+    <div class="container footer-container">
+      <div class="footer-content-wrapper">
+        <div class="footer-title-wrapper">
+          <p class="footer-title">
+            Hashi:<br />
+            Bridge Puzzles
+          </p>
+          <p class="footer-text">
+            Version: 5.0.5<br />
+            Requires Android: 7.0 and up<br />
+            Released: Dec 21, 2022
+          </p>
+        </div>
+        <ul class="footer-nav-list">
+          <li class="footer-nav-list-item">
+            <a class="footer-nav-list-link" href="./index.html#home">Home</a>
+          </li>
+          <li class="footer-nav-list-item">
+            <a class="footer-nav-list-link" href="./index.html#gameplay"
+              >How to Play</a
+            >
+          </li>
+          <li class="footer-nav-list-item">
+            <a class="footer-nav-list-link" href="./index.html#features"
+              >Features</a
+            >
+          </li>
+          <li class="footer-nav-list-item">
+            <a class="footer-nav-list-link" href="./index.html#strategies"
+              >Strategies</a
+            >
+          </li>
+          <li class="footer-nav-list-item">
+            <a class="footer-nav-list-link" href="./index.html#progression"
+              >Levels</a
+            >
+          </li>
+          <li class="footer-nav-list-item">
+            <a class="footer-nav-list-link" href="./index.html#faq">FAQ</a>
+          </li>
+          <li class="footer-nav-list-item">
+            <a class="footer-nav-list-link" href="./index.html#contact"
+              >Contact</a
+            >
+          </li>
+        </ul>
+        <nav class="footer-nav">
+          <ul class="footer-list">
+            <li class="footer-list-item">
+              <a class="footer-link" href="./privacy-policy.html"
+                >Privacy Policy</a
+              >
+            </li>
+            <li class="footer-list-item">
+              <a class="footer-link" href="./terms-and-conditions.html"
+                >Terms and Conditions</a
+              >
+            </li>
+            <li class="footer-list-item">
+              <a class="footer-link" href="./cookies-policy.html"
+                >Cookies Policy</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <p class="footer-bottom-text">
+        © 2026 — All rights reserved. silentbridge.pro
+      </p>
+    </div>
+  </div>
+</footer>
+
+    <section id="cookie-banner" class="cookie-banner-section">
+  <div class="cookie-banner-wrapper">
+    <p class="cookie-banner-text">
+      We use cookies to improve your experience on our website. By browsing this
+      website, you agree to our use of cookies
+    </p>
+    <div class="cookie-banner-buttons">
+      <button class="cookie-accept-btn" id="cookie-accept">
+        Accept Cookies
+      </button>
+      <button class="cookie-decline-btn" id="cookie-decline">
+        Decline Cookies
+      </button>
+    </div>
+  </div>
+</section>
+
+
+    
+  </body>
+</html>

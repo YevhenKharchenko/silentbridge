@@ -40,9 +40,10 @@
 }
 
 .faq-list-item {
-  background: #18232c;
-  border-radius: 24px;
-  padding: 24px;
+  box-shadow: 0 2px 6px 0 rgba(54, 54, 54, 0.15);
+  background: #e5ecf1;
+  border-radius: 16px;
+  padding: 16px;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -65,11 +66,11 @@
 }
 
 .faq-btn-text {
-  font-family: 'Archivo', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 500;
   font-size: 18px;
   line-height: 1.5;
-  color: #d0d9fd;
+  color: #003c66;
   text-align: left;
 
   @include media(desktop) {
@@ -91,18 +92,16 @@
 }
 
 .faq-icon {
-  stroke: #d0d9fd;
-
   @include media(desktop) {
   }
 }
 
 .faq-bottom-text {
-  font-family: 'Archivo', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #fff;
+  color: #003c66;
   max-height: 0;
   overflow: hidden;
   transition: all 0.3s ease-in-out;

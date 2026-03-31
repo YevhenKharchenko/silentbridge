@@ -3,4 +3,4 @@ Disallow: /admin/
 Disallow: /private/
 Allow: /
 
-Sitemap: https://softinterval.space/sitemap.xml
+Sitemap: https://silentbridge.pro/sitemap.xml

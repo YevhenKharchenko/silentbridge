@@ -1,5 +1,5 @@
 .footer {
-  background: #18232c;
+  background: #0061a4;
 
   @include media(desktop) {
   }
@@ -42,28 +42,24 @@
 }
 
 .footer-title {
-  font-family: 'Archivo', sans-serif;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 1.3;
-  color: #d0d9fd;
-  margin-bottom: 4px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  color: #fff;
+  margin-bottom: 24px;
 
   @include media(desktop) {
-    font-size: 28px;
+    font-size: 48px;
   }
 }
 
-.footer-email-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: 'Archivo', sans-serif;
+.footer-text {
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #d0d9fd;
-  max-width: max-content;
+  color: #fff;
 
   @include media(desktop) {
     font-size: 18px;
@@ -88,11 +84,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Archivo', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #d0d9fd;
+  color: #fff;
   max-width: max-content;
 
   @include media(desktop) {
@@ -117,11 +113,11 @@
 }
 
 .footer-link {
-  font-family: 'Archivo', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #d0d9fd;
+  color: #fff;
   transition: color 0.3s ease-in-out;
 
   @include media(desktop) {
@@ -134,12 +130,12 @@
 }
 
 .footer-bottom-text {
-  font-family: 'Archivo', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 11px;
   line-height: 1.5;
   text-align: right;
-  color: #d0d9fd;
+  color: #fff;
 
   @include media(desktop) {
     font-size: 12px;
